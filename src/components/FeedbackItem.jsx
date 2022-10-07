@@ -6,7 +6,7 @@ import {useContext} from 'react'
 import FeedbackContext from './context/FeedbackContext'
 
 function FeedbackItem({item}) {
-  const {deleteFeedback, editFeedback } = useContext(FeedbackContext)
+  const {deleteFeedback, editFeedback, feedbackEdit } = useContext(FeedbackContext)
   return (
     <Card reverse={true}>
         <div className="num-display">
